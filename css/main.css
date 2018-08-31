@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Karla, Verdana, sans-serif;
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #000000;
+  background-color: #cccccc;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  left: -9999px;
+  top: -9999px;
+}
+.page-wrapper {
+  width: 750px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+/*HEADER*/
+.login-header {
+  position: relative;
+  min-height: 754px;
+  background: linear-gradient(45deg, #0090e5, #00a0ff);
+}
+.login-header::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  border: 700px solid transparent;
+  border-left: 0 solid rgba(0,0,0,0.1);
+  border-bottom: 712px solid rgba(0,0,0,0.1);
+  display: block;
+  width: 0;
+  height: 0;
+}
+.login-heading {
+  margin: 0;
+}
+.chat-icon {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
