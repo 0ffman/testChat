@@ -15,9 +15,19 @@
 		</header>
 		<footer class="login-footer">
 			<form action="342" class="login-form">
-				<label for="username">Username</label>
-				<input id="username" name="username" type="text">
+				<div class="form-wrapper">
+					<div class="row__username">
+						<label for="username">Username</label>
+						<input id="username" name="username" type="text" placeholder="andrea@app.com">
+					</div>
+					<div class="row__password">
+						<label for="password">Password</label>
+						<input id="password" name="password" type="password">
+					</div>
+				</div>
+				<button class="login-button">Get Started</button>
 			</form>
+			<p class="login__footer-text">Not Registered? <a href="" class="login__footer-link">Create Account</a></p>
 		</footer>
 	</div>
 </body>
