@@ -40,7 +40,7 @@ img {
   top: -9999px;
 }
 .page-wrapper {
-  width: 750px;
+  width: 350px;
   display: flex;
   flex-direction: column;
   margin: 0 auto;
@@ -49,22 +49,28 @@ img {
 /*HEADER*/
 .login-header {
   position: relative;
-  min-height: 754px;
+  min-height: 355px;
   background: linear-gradient(45deg, #0090e5, #00a0ff);
 }
 .login-header::before {
   content: '';
   position: absolute;
   bottom: 0;
-  border: 700px solid transparent;
+  border: 300px solid transparent;
   border-left: 0 solid rgba(0,0,0,0.1);
-  border-bottom: 712px solid rgba(0,0,0,0.1);
+  border-bottom: 330px solid rgba(0,0,0,0.1);
   display: block;
   width: 0;
   height: 0;
 }
 .login-heading {
-  margin: 0;
+  position: relative;
+  margin: 74px 0 0 0;
+  font-size: 90px;
+  letter-spacing: -3.5px;
+  color: #ffffff;
+  line-height: 64px;
+  z-index: 1;
 }
 .chat-icon {
   position: absolute;
@@ -72,4 +78,17 @@ img {
   top: 50%;
   transform: translate(-50%, -50%);
 }
+.login-header::after {
+  content: '';
+  position: absolute;
+  bottom: 109px;
+  left: 128px;
+  border: 10px solid transparent;
+  border-right: 10px solid #ad807d;
+  border-top: 10px solid #ad807d;
+  display: block;
+  width: 0;
+  height: 0;
+}
+
 
