@@ -169,3 +169,71 @@ img {
   color: #ffffff;
   border-bottom: 1px solid #ffffff;
 }
+
+/* HEADER CAHT PAGE*/
+.header-chat {
+  margin: 0;
+  text-align: center;
+  background-color: #000000;
+  color: #ffffff;
+}
+.header-chat__heading {
+  margin: 0;
+  padding: 35px 0 12px 0;
+  font-size: 16px;
+  line-height: 23px;
+  font-weight: 300;
+}
+.chat {
+  padding: 25px;
+  background-color: #0090e5;
+  min-height: 512px;
+}
+
+.message {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.message--user-1 + .message--user-2,
+.message--user-2 + .message--user-1 {
+  margin-top: 2em;
+}
+.message--user-1 + .message--user-1,
+.message--user-2 + .message--user-2 {
+  margin-top: .5em;
+}
+.message__time {
+  font-size: 10px;
+  font-weight: 700;
+  color: #ad807d;
+  width: 100%;
+  margin: 0 0 5px 0;
+}
+.message__author-pic {
+  margin: 0;
+}
+
+.message__text {
+  padding: 10px;
+  background-color: #ffffff;
+  max-width: 86%;
+}
+.message__text-reply {
+  margin: 0;
+}
+
+.message--user-2 {
+  justify-content: flex-end;
+}
+.message--user-2 .message__time {
+  text-align: right;
+  margin: 0 0 5px 0;
+  display: flex;
+  justify-content: flex-end;
+}
+.message--user-2 .message__author-pic {
+  order: 1;
+  margin: 0;
+}
+
