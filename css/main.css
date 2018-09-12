@@ -120,7 +120,7 @@ img {
 
 /*FOOTER*/
 
-.login-footer {
+.login-entry {
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -216,13 +216,13 @@ img {
           transform: translateY(-50%);
 }
 
-.login__footer-text {
+.login__entry-text {
   color: #ffffff;
   margin: 0 0 25px 0;
   font-size: 12px;
 }
 
-.login__footer-link {
+.login__entry-link {
   padding-bottom: 5px;
   font-weight: 700;
   color: #ffffff;
